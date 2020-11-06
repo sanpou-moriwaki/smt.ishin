@@ -1,0 +1,93 @@
+h2{
+}
+h2 img{
+	max-width:100%;
+	height:auto;
+}
+
+.entrustBox {
+	border: 1px solid #E63082;
+	margin-bottom: 40px;
+}
+.entrustBox h3 {
+	font-size: 18px;
+	color: #FFF;
+	background-color: #E63082;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#entrustCheckbox1 {
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#entrustCheckbox1 h4 {
+	font-size: 16px;
+	background-color: #efefef;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+#entrustCheckbox1 ul {
+	padding-left: 20px;
+}
+#entrustCheckbox1 ul li {
+	font-size: 14px;
+	display: block;
+	float: left;
+	padding-right: 20px;
+}
+h4.eriaH4 {
+	font-size: 18px;
+	background-color: #CCC;
+	padding-left: 10px;
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#entrustCheckbox2 {
+	margin-bottom: 40px;
+}
+#entrustCheckbox2 table {
+	width: 100%;
+}
+#entrustCheckbox2 table th {
+	font-size: 16px;
+	background-color: #efefef;
+	width: 30%;
+	padding: 10px;
+	text-align: left;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+}
+#entrustCheckbox2 table td {
+	font-size: 14px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	padding: 10px;
+}
+#entrustCheckbox2 table td label {
+	margin-right: 15px;
+}
+
+/* iOSでのデフォルトスタイルをリセット */
+input[type="submit"],
+input[type="button"] {
+  border-radius: 0;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  appearance: button;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+input[type="submit"]::-webkit-search-decoration,
+input[type="button"]::-webkit-search-decoration {
+  display: none;
+}
+input[type="submit"]::focus,
+input[type="button"]::focus {
+  outline-offset: -2px;
+}
