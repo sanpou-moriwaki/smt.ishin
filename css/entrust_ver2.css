@@ -1,101 +1,107 @@
 /* iQuery reset
 ---------------------------------------------*/
-
-.ui-checkbox{
-display:initial;
+.ui-checkbox {
+  display: initial;
 }
-
-
-h2{
+h2 {}
+h2 img {
+  max-width: 100%;
+  height: auto;
 }
-h2 img{
-	max-width:100%;
-	height:auto;
-}
-
 .entrustBox {
-	border: 1px solid #E63082;
-	margin-bottom: 40px;
+  border: 1px solid #E63082;
+  margin-bottom: 40px;
 }
 .entrustBox h3 {
-	font-size: 18px;
-	color: #FFF;
-	background-color: #E63082;
-	padding-left: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+  font-size: 18px;
+  color: #FFF;
+  background-color: #E63082;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #entrustCheckbox1 {
-	padding-bottom: 10px;
-	padding-left: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 #entrustCheckbox1 h4 {
-	font-size: 16px;
-	background-color: #efefef;
-	padding-left: 20px;
-	margin-bottom: 10px;
-	margin-top: 20px;
+  font-size: 16px;
+  background-color: #efefef;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 #entrustCheckbox1 ul {
-	padding-left: 20px;
-    display: flex;
-    flex-wrap: wrap;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 #entrustCheckbox1 ul li {
-	font-size: 14px;
-	padding-right: 20px;
+  font-size: 14px;
+  padding-right: 20px;
 }
 h4.eriaH4 {
-	font-size: 18px;
-	background-color: #CCC;
-	padding-left: 10px;
-	margin-top: 0px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+  font-size: 18px;
+  background-color: #CCC;
+  padding-left: 10px;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #entrustCheckbox2 {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 #entrustCheckbox2 table {
-	width: 100%;
+  width: 100%;
 }
 #entrustCheckbox2 table th {
-	font-size: 16px;
-	background-color: #efefef;
-	width: 30%;
-	padding: 10px;
-	text-align: left;
-	border-bottom-width: 1px;
-	border-bottom-style: dotted;
-	border-bottom-color: #999;
+  font-size: 16px;
+  background-color: #efefef;
+  width: 30%;
+  padding: 10px;
+  text-align: left;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #999;
 }
 #entrustCheckbox2 table td {
-	font-size: 14px;
-	border-bottom-width: 1px;
-	border-bottom-style: dotted;
-	border-bottom-color: #999;
-	padding: 10px;
+  font-size: 14px;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #999;
+  padding: 10px;
 }
 #entrustCheckbox2 table td label {
-	margin-right: 15px;
+  margin-right: 15px;
 }
-#entrustCheckbox2 th div,#entrustCheckbox2 td div{
-display: flex;
-flex-wrap: nowrap;
-flex-direction: row-reverse;
+#entrustCheckbox2 td ul {
+  display: flex;
+  flex-wrap: wrap;
 }
-#entrustCheckbox2 td{
-display: flex;
-flex-wrap: wrap;
+input {
+  margin-top: 5px;
 }
-#entrustCheckbox2 input {
-margin-top: 3px;
+.submitBox {
+  text-align: center;
 }
-
-
+.submitBox button {
+  height: 70px;
+  background-color: #ff6600;
+  border: 1px solid #ff6600;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  line-height: 70px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
 /* iOSでのデフォルトスタイルをリセット */
-input[type="submit"],
-input[type="button"] {
+input[type="submit"], input[type="button"] {
   border-radius: 0;
   -webkit-box-sizing: content-box;
   -webkit-appearance: button;
@@ -104,11 +110,9 @@ input[type="button"] {
   box-sizing: border-box;
   cursor: pointer;
 }
-input[type="submit"]::-webkit-search-decoration,
-input[type="button"]::-webkit-search-decoration {
+input[type="submit"]::-webkit-search-decoration, input[type="button"]::-webkit-search-decoration {
   display: none;
 }
-input[type="submit"]::focus,
-input[type="button"]::focus {
+input[type="submit"]::focus, input[type="button"]::focus {
   outline-offset: -2px;
 }
